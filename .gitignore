@@ -1,0 +1,40 @@
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.myenv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VSCode project files
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Ignore virtual environment from Docker
+*.env
